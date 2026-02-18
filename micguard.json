@@ -1,0 +1,10 @@
+{
+  "PreferredMicDeviceId": null,
+  "BlockedMicNameContains": [
+    "OnePlus Buds Pro 3"
+  ],
+  "BlockedMicDeviceIds": [],
+  "PreferredMicNameContains": "Realtek",
+  "GuardEnabled": true,
+  "EventDebounceMs": 700
+}
