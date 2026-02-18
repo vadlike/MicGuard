@@ -37,36 +37,4 @@ dotnet run --no-build
 
 After launch, MicGuard runs in the system tray near the clock.
 
-## 📦 Publish
-
-```powershell
-dotnet publish -c Release -r win-x64 --self-contained false
-```
-
-Published executable:
-
-`bin\Release\net9.0-windows\win-x64\publish\MicGuard.exe`
-
-## ⚙️ Configuration
-
-- Debug config: `bin\Debug\net9.0-windows\micguard.json`
-- Publish config: `bin\Release\net9.0-windows\win-x64\publish\micguard.json`
-
-Default config:
-
-```json
-{
-  "PreferredMicDeviceId": null,
-  "BlockedMicNameContains": [
-    "OnePlus Buds Pro 3"
-  ],
-  "BlockedMicDeviceIds": [],
-  "PreferredMicNameContains": "Realtek",
-  "GuardEnabled": true,
-  "EventDebounceMs": 700
-}
-```
-
-## 👤 Author
-
 `VADLIKE`
