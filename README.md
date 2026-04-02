@@ -122,7 +122,7 @@ Latest release:
 
 ## License
 
-Distributed under the [GNU General Public License v3.0](LICENSE).
+Distributed under the  [GNU General Public License v3.0](LICENSE).
 
 ---
 
